@@ -1,7 +1,12 @@
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "Space Grotesk", sans-serif;
-  font-size: 11px;
   margin: 0;
+  height: 100vh;
+  width: 100%;
 }
 
 .container {
@@ -16,7 +21,7 @@ body {
 
 .section-left {
   width: 50%;
-  height: 900px;
+  height: 56.25rem;
   background-image: url(./images/bg-main-desktop.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -26,10 +31,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 11.6rem;
-  width: 447px;
-  height: 245px;
-  margin-left: 11vw;
+  margin-top: 11.7rem;
+  width: 27.938rem;
+  height: 15.313rem;
+  margin-left: 11.4vw;
   background-image: url(./images/bg-card-front.png);
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -47,18 +52,19 @@ img {
 }
 
 .num {
-  font-size: 28px;
+  font-size: 1.75rem;
   letter-spacing: 3.4px;
-  margin-top: 3.9rem;
+  margin-top: 3.8rem;
   color: white;
   font-weight: 500;
 }
 
 .identity {
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 2px;
   color: white;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .identity-right {
@@ -74,10 +80,10 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-left: 17.4vw;
+  margin-left: 17.9vw;
   margin-top: 2.3rem;
-  width: 447px;
-  height: 245px;
+  width: 27.938rem;
+  height: 15.313rem;
   background-image: url(./images/bg-card-back.png);
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -98,6 +104,7 @@ img {
 
 .section-right {
   width: 50%;
+  height: 56.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,16 +131,16 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 400px;
-  height: 352px;
-  margin-left: 7.3vw;
-  margin-top: -1.5vh;
+  width: 25rem;
+  height: 23rem;
+  margin-left: 7.8vw;
+  margin-top: 0.5rem;
 }
 
 label {
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.9px;
 }
 
 button:hover {
@@ -147,7 +154,7 @@ input {
   letter-spacing: 1.2px;
   border-radius: 10px;
   margin-top: 0.52rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding-left: 1rem;
   font-family: inherit;
   font-size: 16px;
@@ -197,15 +204,15 @@ input {
 }
 
 .large {
-  margin-left: 1.4rem;
-  width: 13rem;
+  margin-left: 1.2rem;
+  width: 11.6rem;
 }
 
 .button {
   height: 3.4rem;
   letter-spacing: 0.1px;
   border-radius: 10px;
-  margin-top: 0.8rem;
+  margin-top: 1rem;
   margin-bottom: 0;
   padding-left: 0.5rem;
   font-family: inherit;
@@ -236,7 +243,7 @@ input::-webkit-input-placeholder {
   font-size: 10px;
   color: #e54858;
   display: block;
-  margin-top: -1rem;
+  margin-top: -0.8rem;
   margin-bottom: 1rem;
   text-align: left;
   line-height: 0.3;
@@ -264,8 +271,8 @@ input::-webkit-input-placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500px;
-  height: 352px;
+  width: 31.25rem;
+  height: 22rem;
   margin-left: 3vw;
   margin-top: -1.5vh;
 }
